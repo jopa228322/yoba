@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+}
+img{
+	width: 100%;
+	border-radius: 50%;
+	height: 100%;
+
+}
+body{
+	background-color: #f7f7f7;
+}
+.container{
+	max-width: 1280px;
+	min-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.i{
+	font-family: Arial,sans-serif;
+	animation: blink 1s step-end infinite;
+
+}
+@-webkit-keyframes blink {
+  67% { opacity: 0 }
+}
+
+@-moz-keyframes blink {
+  67% { opacity: 0 }
+}
+
+@-o-keyframes blink {
+  67% { opacity: 0 }
+}
+
+@keyframes blink {
+  67% { opacity: 0 }
+}
+.containerChsv{
+	margin: 15% 0;
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.chsv1{
+	border: 2px solid #000;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	position: relative;
+	transition: 0.3s all;
+}
+.chsv1:hover{
+	cursor: pointer;
+	transition: 0.3s all;
+	-webkit-transform: translate(0,10px);
+	-moz-transform: translate(0,10px);
+	-o-transform: translate(0,10px);
+}
+
+.chsv2{
+	border: 2px solid #000;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	position: relative;
+	transition: 0.3s all;
+}
+.chsv2:hover{
+	cursor: pointer;
+	transition: 0.3s all;
+	-webkit-transform: translate(0,10px);
+	-moz-transform: translate(0,10px);
+	-o-transform: translate(0,10px);
+}
+.ChsvBlock{
+	position: absolute;
+	top: 50%;
+	transform: translate(-50% , -50%);
+	left: 50%;
+}
+.plus1{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: -196px;
+}
+.min1{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: -196px;
+}
+.howChsv{
+	height: 20px;
+	width: 40px;
+}
